@@ -1,0 +1,26 @@
+=== The Name Of Your Hack  ===
+A chrome plugin to find the most "effective" jam by analysing your followers favourite songs and suggesting a track that is likely to be well received
+
+===Creators===
+Your social jam consultants 
+* Sam Smith - @phuedx
+* Marek Ventur - @marekventur
+
+===About the hack===
+ThisIsMyJam is about your current music obsession. We really like it, but we sometimes catch ourselves worrying more about whether our followers will like our next jam rather than just posting the thing that currently hounds your headphones. The social marketing ghost is everywhere! 
+
+As a joke and to see how far we can push this idea we decided to write some scripts that analyze your followers (those are the ones hopefully "loving" it, right?) favourite tracks on TIMJ and Last.fm, finds the similar tracks for each of those via the EchoNest API and sorts and weights all of those sets of tracks to find a potentially successful track in terms of "follower perception".
+
+It's a bad idea and we feel slightly guilty for gaming our favourite music website. It was quite a lot of hacking fun though :)
+
+===What APIs, tools, kits or other amenities did you use?===
+* ThisIsMyJam (We didn't get access to their API, so we fell back to parsing their HTML)
+* Last.fm (for users with a lLst.fm link on their TIMJ profile)
+* EchoNest (for finding similar tracks)
+* PHP, XPath, JavaScript, HTML (yeah!!1!)
+
+=== Media ===
+Because there's not much to show we created a presentation here: http://users.last.fm/~marek/timj/
+
+===Source code and links===
+https://github.com/marekventur/ThisIsTheirJam
