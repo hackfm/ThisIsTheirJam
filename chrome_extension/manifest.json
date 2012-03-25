@@ -1,0 +1,20 @@
+{
+    "name": "This is Their Jam",
+    "version": "0.1",
+    "description": "Recommends the best possible jam to get the most likes by scraping your follower's jams and loved tracks.",
+    "content_scripts": [
+        {
+            "matches": ["http://www.thisismyjam.com/jam/create"],
+            "js": [
+                "jquery.js",
+                "jquery.tmpl.js",
+                "timj.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "http://localhost"
+    ]
+
+}
